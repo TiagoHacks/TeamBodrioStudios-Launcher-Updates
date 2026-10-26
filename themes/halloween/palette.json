@@ -1,0 +1,20 @@
+{
+  "id": "halloween",
+  "displayName": "Halloween",
+  "launcherVersion": "1.0.0-rc.8",
+  "status": "pending-executable-release",
+  "colors": {
+    "background": "#110B1B",
+    "panel": "#23152F",
+    "primary": "#FFAA39",
+    "secondary": "#673051",
+    "text": "#FFECD6",
+    "mutedText": "#CBB4D0"
+  },
+  "decorations": [
+    "moon",
+    "bats",
+    "glowing stars"
+  ],
+  "note": "Esta paleta es una referencia visual; el tema funcional WPF está en Styles/Theme.Halloween.xaml dentro de RC8. RC7 no descarga paletas desde este archivo."
+}
