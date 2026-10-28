@@ -1,0 +1,7 @@
+{
+    "version":  "1.0.0-rc.12",
+    "packageUrl":  "https://github.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/releases/download/launcher-v1.0.0-rc.12/TeamBodrioLauncher-1.0.0-rc.12-win-x64.zip",
+    "sha256":  "5d332160a7e602e8ea4913543fa0cedda37fe849c114400f01cf6ae102d5de9f",
+    "size":  96605048,
+    "notes":  "RC12: logotipo Team Bodrio en barra superior, titulos de modo personalizados desde GitHub y soporte de Publisher actualizado."
+}
