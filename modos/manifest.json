@@ -117,12 +117,12 @@
       "loader": "Vanilla",
       "loaderVersion": "0.17.2",
       "serverAddress": "YoYlosMegaChillin.exaroton.me",
-      "autoJoinServer": false,
+      "autoJoinServer": true,
       "videoUrl": "https://i.imgur.com/k3FQG4H.mp4",
       "coverUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/cover.jpeg",
       "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/title.png",
       "themeColor": "#3eb656",
-      "revision": "20261028085529796",
+      "revision": "20261028193603856",
       "files": []
     }
   ]
