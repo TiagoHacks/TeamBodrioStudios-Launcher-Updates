@@ -10,11 +10,11 @@
       "loaderVersion": "0.17.2",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "1.0.0",
+      "revision": "20261028080912237",
       "files": [
         {
           "kind": "mod",
-          "name": "fabric-carpet-1.21-1.4.147+v240613.jar",
+          "name": "fabric-carpet-1.21-1.4.147\u002Bv240613.jar",
           "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
           "sha512": "e6f33d13406796a34e7598d997113f25f7bea3e55f9d334b73842adda52b2c5d0a86b7b12ac812d7e758861e3f468bf201c6c710c40162bb79d6818938204151",
           "size": 1525027
@@ -28,7 +28,7 @@
         },
         {
           "kind": "mod",
-          "name": "InvMove-0.9.3+1.21.1-Fabric.jar",
+          "name": "InvMove-0.9.3\u002B1.21.1-Fabric.jar",
           "url": "https://cdn.modrinth.com/data/REfW2AEX/versions/nOwgsiRT/InvMove-0.9.3%2B1.21.1-Fabric.jar",
           "sha512": "18b19ff3b39c82399e4fa98a20f682191c34cfcc7774d8ba8cb7941ef6c318f48b6dfdf34a743b8580bbfff0e8073c53b3c836ea1b8bb44e379363ce805ffce9",
           "size": 84035
@@ -49,14 +49,14 @@
         },
         {
           "kind": "mod",
-          "name": "placeholder-api-2.4.2+1.21.jar",
+          "name": "placeholder-api-2.4.2\u002B1.21.jar",
           "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
           "sha512": "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
           "size": 232325
         },
         {
           "kind": "mod",
-          "name": "fabric-api-0.116.17+1.21.1.jar",
+          "name": "fabric-api-0.116.17\u002B1.21.1.jar",
           "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
           "sha512": "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8",
           "size": 2452735
@@ -81,8 +81,32 @@
           "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
           "sha512": "c44e69400ac7349ad6d4699263bde4d87359e03233c31a872eb02542658cfc73a185b46e4361c54cb1ac029a2991bd8eb4d4ea59b1c3e3b43f234087520b325a",
           "size": 5369475
+        },
+        {
+          "kind": "mod",
+          "name": "fancymenu_fabric_3.9.14_MC_1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/iGLyAyEZ/fancymenu_fabric_3.9.14_MC_1.21.1.jar",
+          "sha512": "c730134bb63644e6f8a3dcdfe156215eb1664c436bffab3cc024e8ad44f613829ab774f2709c345af3e138609573bc068254f176630ce69a057d2e172dadb3e9",
+          "size": 26277804
+        },
+        {
+          "kind": "mod",
+          "name": "melody_fabric_1.0.10_MC_1.21.jar",
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar",
+          "sha512": "a7e13e66d3d406b26ee7e5394ae84653d1b9a4f1e4151a2f925fb07869576d6a3b419ba5702bd1ff5bad91054a66f5071720e17f85e1579e8e4f83664bc3dc5e",
+          "size": 188035
+        },
+        {
+          "kind": "mod",
+          "name": "konkrete_fabric_1.9.9_MC_1.21.jar",
+          "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar",
+          "sha512": "6d4c65a0a9d51b2b956ba61f926f642e901573c9621289cf7a387996370fcab23c69ee6e698596965e9bd68b86b1e96e44295172a880a979105347719228ecf8",
+          "size": 786695
         }
-      ]
+      ],
+      "videoUrl": null,
+      "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/murder-mystery/title.png",
+      "themeColor": ""
     }
   ]
 }
