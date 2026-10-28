@@ -107,6 +107,23 @@
       "videoUrl": null,
       "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/murder-mystery/title.png",
       "themeColor": ""
+    },
+    {
+      "id": "mundosurv",
+      "name": "Minecraft Survival",
+      "description": "Es un modo de minecra normal, asi para esos bodrios que juegan sin mods",
+      "category": "Survival",
+      "minecraftVersion": "26.3",
+      "loader": "Vanilla",
+      "loaderVersion": "0.17.2",
+      "serverAddress": "YoYlosMegaChillin.exaroton.me",
+      "autoJoinServer": false,
+      "videoUrl": null,
+      "coverUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/cover.jpeg",
+      "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/title.png",
+      "themeColor": "#3eb656",
+      "revision": "20261028085200400",
+      "files": []
     }
   ]
 }
