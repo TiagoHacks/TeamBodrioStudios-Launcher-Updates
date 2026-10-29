@@ -1,153 +1,151 @@
 {
-    "modes":  [
-                  {
-                      "id":  "murder-mystery",
-                      "name":  "Murder Mystery",
-                      "description":  "The Last Voyage of the Harpy Express",
-                      "category":  "Minijuego",
-                      "minecraftVersion":  "1.21.1",
-                      "loader":  "Fabric",
-                      "loaderVersion":  "0.17.2",
-                      "serverAddress":  "MurderMysteryTrainSe.exaroton.me",
-                      "autoJoinServer":  false,
-                      "revision":  "20261029044903724",
-                      "files":  [
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "fabric-carpet-1.21-1.4.147+v240613.jar",
-                                        "url":  "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
-                                        "sha512":  "e6f33d13406796a34e7598d997113f25f7bea3e55f9d334b73842adda52b2c5d0a86b7b12ac812d7e758861e3f468bf201c6c710c40162bb79d6818938204151",
-                                        "size":  1525027
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "modmenu-11.0.4.jar",
-                                        "url":  "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar",
-                                        "sha512":  "45ea8f7e0749bc0eb98900f94486e323f153b199617fa43977b46472e4196ee5a6739f41a1e7f68e270f84a367df5f7f53c2a1f46145ad7d349ede4297895396",
-                                        "size":  973059
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "InvMove-0.9.3+1.21.1-Fabric.jar",
-                                        "url":  "https://cdn.modrinth.com/data/REfW2AEX/versions/nOwgsiRT/InvMove-0.9.3%2B1.21.1-Fabric.jar",
-                                        "sha512":  "18b19ff3b39c82399e4fa98a20f682191c34cfcc7774d8ba8cb7941ef6c318f48b6dfdf34a743b8580bbfff0e8073c53b3c836ea1b8bb44e379363ce805ffce9",
-                                        "size":  84035
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
-                                        "sha512":  "72c69678b6afc5ec48027f6e40f7421370dffa1483e23767e0b5f1b36581be652308b33864848e186845df9052f512b79698c69242adb297058cdc3357b64d60",
-                                        "size":  205671
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "ratatouille-1.4.3-1.21.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/yufdeaJg/versions/XUhQHGmt/ratatouille-1.4.3-1.21.1.jar",
-                                        "sha512":  "82e1f0961b19dc5958a5d6b575ef7c5b527f4a1e6b2aa63091adc47426120a9328de309ead7f27d89c7b2c0b168fcd4323045a2f759d2b430f8efc73f8ac1a37",
-                                        "size":  941255
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "placeholder-api-2.4.2+1.21.jar",
-                                        "url":  "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
-                                        "sha512":  "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
-                                        "size":  232325
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "fabric-api-0.116.17+1.21.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
-                                        "sha512":  "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8",
-                                        "size":  2452735
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "wathe-1.4.1-1.21.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/XoU7Lf7D/versions/K49RSVPQ/wathe-1.4.1-1.21.1.jar",
-                                        "sha512":  "67c493330ca106e6557b0321ef5105ee2e6f369a14a62bec74e93cdf90998073e4274d45d6baa4e5d7fbdd046b8a1ddd9f8a5d5c893a3f46bac9f9b0a7881d34",
-                                        "size":  9685193
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "cloth-config-15.0.140-fabric.jar",
-                                        "url":  "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
-                                        "sha512":  "1b3f5db4fc1d481704053db9837d530919374bf7518d7cede607360f0348c04fc6347a3a72ccfef355559e1f4aef0b650cd58e5ee79c73b12ff0fc2746797a00",
-                                        "size":  1157166
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "voicechat-fabric-1.21.1-2.6.22.jar",
-                                        "url":  "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
-                                        "sha512":  "c44e69400ac7349ad6d4699263bde4d87359e03233c31a872eb02542658cfc73a185b46e4361c54cb1ac029a2991bd8eb4d4ea59b1c3e3b43f234087520b325a",
-                                        "size":  5369475
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "TeamBodrioInterfaz-1.0.0.jar",
-                                        "url":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/TeamBodrioInterfaz-1.0.0.jar",
-                                        "sha512":  "ea6e94eb994fdc85fa872444db241c3867accef5222aade08a7593cb490b22294ac58d5530df0049e77fa10c31e92d520db9336dc0199db1081170a9f05b527b",
-                                        "size":  31461
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "tbs_ui_murdermys-1.0.1.jar",
-                                        "url":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/tbs_ui_murdermys-1.0.1.jar",
-                                        "sha512":  "a4138970af70ee5fe1fa04c0e1b0606a246e18d788d24bb23752d18cb1b8687b61f72c4096db45484983294315cb667f313069ceba3325541403ff091a37fae7",
-                                        "size":  580918
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "iris-fabric-1.8.8+mc1.21.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar",
-                                        "sha512":  "2e6ba2ffa1e1a6799288245a7e0ac68ee8df1d41b98362189df58f535cae34fa9277801e4136633467341b7dae5be0e5c698011b480b3d91b66d3dd4f7567aa6",
-                                        "size":  2690177
-                                    },
-                                    {
-                                        "kind":  "mod",
-                                        "name":  "sodium-fabric-0.6.9+mc1.21.1.jar",
-                                        "url":  "https://cdn.modrinth.com/data/AANobbMI/versions/26nVNc41/sodium-fabric-0.6.9%2Bmc1.21.1.jar",
-                                        "sha512":  "892728b3c26038446b9f573695db9e791fa320994ed34f89be5c766fa2e735b46adb9efa8f6688d5a5b7bb8e9793ff09e72f06fb5ff074137d5b833f1fe27227",
-                                        "size":  1297415
-                                    },
-                                    {
-                                        "kind":  "shaderpack",
-                                        "name":  "MakeUp-UltraFast-9.0a.zip",
-                                        "url":  "https://cdn.modrinth.com/data/izsIPI7a/versions/scT6jTrm/MakeUp-UltraFast-9.0a.zip",
-                                        "sha512":  "2ed692c9b2fa354aa0e86b2e1f96494392f823dbd0c60e63de16424bc9de59d86a96029265278e5c7f03b3a2ef876ccd3e425543d9abe06e6eea52204990b842",
-                                        "size":  357630
-                                    },
-                                    {
-                                        "kind":  "file",
-                                        "name":  "iris.properties",
-                                        "url":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/config/iris.properties",
-                                        "sha512":  "878e472edce9cfab65e1cd95ae4950c1b599ab8b8ad725b5e7ec95f7c947804640926ff7fc3fa4dacbb8b564bafc2eb1ac732c24540b9838eef85b7c53da51ab",
-                                        "size":  56,
-                                        "path":  "config/iris.properties"
-                                    }
-                                ],
-                      "videoUrl":  null,
-                      "titleImageUrl":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/murder-mystery/title.png",
-                      "themeColor":  ""
-                  },
-                  {
-                      "id":  "mundosurv",
-                      "name":  "Minecraft Survival",
-                      "description":  "Es un modo de minecra normal, asi para esos bodrios que juegan sin mods",
-                      "category":  "Survival",
-                      "minecraftVersion":  "26.3",
-                      "loader":  "Vanilla",
-                      "loaderVersion":  "0.17.2",
-                      "serverAddress":  "YoYlosMegaChillin.exaroton.me",
-                      "autoJoinServer":  true,
-                      "videoUrl":  "https://i.imgur.com/k3FQG4H.mp4",
-                      "coverUrl":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/cover.jpeg",
-                      "titleImageUrl":  "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/title.png",
-                      "themeColor":  "#3eb656",
-                      "revision":  "20261028193603856",
-                      "files":  [
-
-                                ]
-                  }
-              ]
+  "modes": [
+    {
+      "id": "murder-mystery",
+      "name": "Murder Mystery",
+      "description": "The Last Voyage of the Harpy Express",
+      "category": "Minijuego",
+      "minecraftVersion": "1.21.1",
+      "loader": "Fabric",
+      "loaderVersion": "0.17.2",
+      "serverAddress": "MurderMysteryTrainSe.exaroton.me",
+      "autoJoinServer": false,
+      "revision": "20261029060458729",
+      "files": [
+        {
+          "kind": "mod",
+          "name": "fabric-carpet-1.21-1.4.147\u002Bv240613.jar",
+          "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
+          "sha512": "e6f33d13406796a34e7598d997113f25f7bea3e55f9d334b73842adda52b2c5d0a86b7b12ac812d7e758861e3f468bf201c6c710c40162bb79d6818938204151",
+          "size": 1525027
+        },
+        {
+          "kind": "mod",
+          "name": "modmenu-11.0.4.jar",
+          "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar",
+          "sha512": "45ea8f7e0749bc0eb98900f94486e323f153b199617fa43977b46472e4196ee5a6739f41a1e7f68e270f84a367df5f7f53c2a1f46145ad7d349ede4297895396",
+          "size": 973059
+        },
+        {
+          "kind": "mod",
+          "name": "InvMove-0.9.3\u002B1.21.1-Fabric.jar",
+          "url": "https://cdn.modrinth.com/data/REfW2AEX/versions/nOwgsiRT/InvMove-0.9.3%2B1.21.1-Fabric.jar",
+          "sha512": "18b19ff3b39c82399e4fa98a20f682191c34cfcc7774d8ba8cb7941ef6c318f48b6dfdf34a743b8580bbfff0e8073c53b3c836ea1b8bb44e379363ce805ffce9",
+          "size": 84035
+        },
+        {
+          "kind": "mod",
+          "name": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+          "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+          "sha512": "72c69678b6afc5ec48027f6e40f7421370dffa1483e23767e0b5f1b36581be652308b33864848e186845df9052f512b79698c69242adb297058cdc3357b64d60",
+          "size": 205671
+        },
+        {
+          "kind": "mod",
+          "name": "ratatouille-1.4.3-1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/yufdeaJg/versions/XUhQHGmt/ratatouille-1.4.3-1.21.1.jar",
+          "sha512": "82e1f0961b19dc5958a5d6b575ef7c5b527f4a1e6b2aa63091adc47426120a9328de309ead7f27d89c7b2c0b168fcd4323045a2f759d2b430f8efc73f8ac1a37",
+          "size": 941255
+        },
+        {
+          "kind": "mod",
+          "name": "placeholder-api-2.4.2\u002B1.21.jar",
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+          "sha512": "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
+          "size": 232325
+        },
+        {
+          "kind": "mod",
+          "name": "fabric-api-0.116.17\u002B1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+          "sha512": "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8",
+          "size": 2452735
+        },
+        {
+          "kind": "mod",
+          "name": "wathe-1.4.1-1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/XoU7Lf7D/versions/K49RSVPQ/wathe-1.4.1-1.21.1.jar",
+          "sha512": "67c493330ca106e6557b0321ef5105ee2e6f369a14a62bec74e93cdf90998073e4274d45d6baa4e5d7fbdd046b8a1ddd9f8a5d5c893a3f46bac9f9b0a7881d34",
+          "size": 9685193
+        },
+        {
+          "kind": "mod",
+          "name": "cloth-config-15.0.140-fabric.jar",
+          "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+          "sha512": "1b3f5db4fc1d481704053db9837d530919374bf7518d7cede607360f0348c04fc6347a3a72ccfef355559e1f4aef0b650cd58e5ee79c73b12ff0fc2746797a00",
+          "size": 1157166
+        },
+        {
+          "kind": "mod",
+          "name": "voicechat-fabric-1.21.1-2.6.22.jar",
+          "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
+          "sha512": "c44e69400ac7349ad6d4699263bde4d87359e03233c31a872eb02542658cfc73a185b46e4361c54cb1ac029a2991bd8eb4d4ea59b1c3e3b43f234087520b325a",
+          "size": 5369475
+        },
+        {
+          "kind": "mod",
+          "name": "TeamBodrioInterfaz-1.0.0.jar",
+          "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/TeamBodrioInterfaz-1.0.0.jar",
+          "sha512": "ea6e94eb994fdc85fa872444db241c3867accef5222aade08a7593cb490b22294ac58d5530df0049e77fa10c31e92d520db9336dc0199db1081170a9f05b527b",
+          "size": 31461
+        },
+        {
+          "kind": "mod",
+          "name": "iris-fabric-1.8.8\u002Bmc1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar",
+          "sha512": "2e6ba2ffa1e1a6799288245a7e0ac68ee8df1d41b98362189df58f535cae34fa9277801e4136633467341b7dae5be0e5c698011b480b3d91b66d3dd4f7567aa6",
+          "size": 2690177
+        },
+        {
+          "kind": "mod",
+          "name": "sodium-fabric-0.6.9\u002Bmc1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/26nVNc41/sodium-fabric-0.6.9%2Bmc1.21.1.jar",
+          "sha512": "892728b3c26038446b9f573695db9e791fa320994ed34f89be5c766fa2e735b46adb9efa8f6688d5a5b7bb8e9793ff09e72f06fb5ff074137d5b833f1fe27227",
+          "size": 1297415
+        },
+        {
+          "kind": "shaderpack",
+          "name": "MakeUp-UltraFast-9.0a.zip",
+          "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/scT6jTrm/MakeUp-UltraFast-9.0a.zip",
+          "sha512": "2ed692c9b2fa354aa0e86b2e1f96494392f823dbd0c60e63de16424bc9de59d86a96029265278e5c7f03b3a2ef876ccd3e425543d9abe06e6eea52204990b842",
+          "size": 357630
+        },
+        {
+          "kind": "file",
+          "name": "iris.properties",
+          "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/config/iris.properties",
+          "sha512": "878e472edce9cfab65e1cd95ae4950c1b599ab8b8ad725b5e7ec95f7c947804640926ff7fc3fa4dacbb8b564bafc2eb1ac732c24540b9838eef85b7c53da51ab",
+          "size": 56,
+          "path": "config/iris.properties"
+        },
+        {
+          "kind": "mod",
+          "name": "tbs_ui_murdermys-1.0.2.jar",
+          "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/tbs_ui_murdermys-1.0.2.jar",
+          "sha512": "86d3107a550838219de45c26e56690c4208667c9f2708598b0c60580a15ed0d06bf8bd04992cbd9aa5bd9e4811ba121c8acad77c10f66ed7d80d8befa0579dfc",
+          "size": 582062
+        }
+      ],
+      "videoUrl": null,
+      "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/murder-mystery/title.png",
+      "themeColor": ""
+    },
+    {
+      "id": "mundosurv",
+      "name": "Minecraft Survival",
+      "description": "Es un modo de minecra normal, asi para esos bodrios que juegan sin mods",
+      "category": "Survival",
+      "minecraftVersion": "26.3",
+      "loader": "Vanilla",
+      "loaderVersion": "0.17.2",
+      "serverAddress": "YoYlosMegaChillin.exaroton.me",
+      "autoJoinServer": true,
+      "videoUrl": "https://i.imgur.com/k3FQG4H.mp4",
+      "coverUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/cover.jpeg",
+      "titleImageUrl": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/media/mundosurv/title.png",
+      "themeColor": "#3eb656",
+      "revision": "20261028193603856",
+      "files": []
+    }
+  ]
 }
