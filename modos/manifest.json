@@ -10,7 +10,7 @@
       "loaderVersion": "0.17.2",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261028080912237",
+      "revision": "20261029044348634",
       "files": [
         {
           "kind": "mod",
@@ -81,27 +81,6 @@
           "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar",
           "sha512": "c44e69400ac7349ad6d4699263bde4d87359e03233c31a872eb02542658cfc73a185b46e4361c54cb1ac029a2991bd8eb4d4ea59b1c3e3b43f234087520b325a",
           "size": 5369475
-        },
-        {
-          "kind": "mod",
-          "name": "fancymenu_fabric_3.9.14_MC_1.21.1.jar",
-          "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/iGLyAyEZ/fancymenu_fabric_3.9.14_MC_1.21.1.jar",
-          "sha512": "c730134bb63644e6f8a3dcdfe156215eb1664c436bffab3cc024e8ad44f613829ab774f2709c345af3e138609573bc068254f176630ce69a057d2e172dadb3e9",
-          "size": 26277804
-        },
-        {
-          "kind": "mod",
-          "name": "melody_fabric_1.0.10_MC_1.21.jar",
-          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar",
-          "sha512": "a7e13e66d3d406b26ee7e5394ae84653d1b9a4f1e4151a2f925fb07869576d6a3b419ba5702bd1ff5bad91054a66f5071720e17f85e1579e8e4f83664bc3dc5e",
-          "size": 188035
-        },
-        {
-          "kind": "mod",
-          "name": "konkrete_fabric_1.9.9_MC_1.21.jar",
-          "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar",
-          "sha512": "6d4c65a0a9d51b2b956ba61f926f642e901573c9621289cf7a387996370fcab23c69ee6e698596965e9bd68b86b1e96e44295172a880a979105347719228ecf8",
-          "size": 786695
         }
       ],
       "videoUrl": null,
