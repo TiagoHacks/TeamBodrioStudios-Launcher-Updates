@@ -10,7 +10,7 @@
       "loaderVersion": "0.17.2",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261029060458729",
+      "revision": "20261029062452139",
       "files": [
         {
           "kind": "mod",
@@ -84,10 +84,10 @@
         },
         {
           "kind": "mod",
-          "name": "TeamBodrioInterfaz-1.0.0.jar",
-          "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/TeamBodrioInterfaz-1.0.0.jar",
-          "sha512": "ea6e94eb994fdc85fa872444db241c3867accef5222aade08a7593cb490b22294ac58d5530df0049e77fa10c31e92d520db9336dc0199db1081170a9f05b527b",
-          "size": 31461
+          "name": "TeamBodrioInterfaz-1.1.0.jar",
+          "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/TeamBodrioInterfaz-1.1.0.jar",
+          "sha512": "1f10bd707b8b18ab1a401f418036e307846311af079aa3a6a7d0938832e8d7cfadd2c5eabd57d8ffef0e405225fdb2689535cf1d199be6293abd9f7257ea0ec0",
+          "size": 57507
         },
         {
           "kind": "mod",
