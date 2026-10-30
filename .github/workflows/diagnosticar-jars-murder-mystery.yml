@@ -1,0 +1,17 @@
+name: Diagnosticar JAR invalidos de Murder Mystery
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/diagnosticar-jars-murder-mystery.yml"
+      - "scripts/validar_jars_murder_mystery.py"
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar JSON interno y SHA-512 de cada mod
+        run: python3 scripts/validar_jars_murder_mystery.py
