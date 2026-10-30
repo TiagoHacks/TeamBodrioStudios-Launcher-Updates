@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/diagnosticar-jars-murder-mystery.yml"
       - "scripts/validar_jars_murder_mystery.py"
+      - "modos/manifest.json"
 permissions:
   contents: read
 jobs:
