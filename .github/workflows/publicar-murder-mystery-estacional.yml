@@ -1,0 +1,36 @@
+name: Publicar Murder Mystery estacional
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/publicar_murder_mystery_estacional.py"
+      - ".github/workflows/publicar-murder-mystery-estacional.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publicacion-murder-mystery
+  cancel-in-progress: false
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Obtener catálogo actualizado
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Resolver versiones y dependencias mediante Modrinth
+        run: python3 scripts/publicar_murder_mystery_estacional.py
+      - name: Validar JSON y publicar cambios cuando proceda
+        shell: bash
+        run: |
+          python3 -m json.tool modos/manifest.json >/dev/null
+          if git diff --quiet -- modos/manifest.json; then
+            echo "El catálogo no requiere cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add modos/manifest.json
+          git commit -m "Murder Mystery: añadir mods Halloween Navidad y dependencias verificadas"
+          git push origin HEAD:main
