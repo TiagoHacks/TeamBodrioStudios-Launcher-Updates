@@ -10,7 +10,7 @@
       "loaderVersion": "0.17.2",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261030230822475",
+      "revision": "20261030231510566",
       "files": [
         {
           "kind": "mod",
@@ -131,13 +131,6 @@
           "url": "https://cdn.modrinth.com/data/EhthJpjM/versions/9IYnNwkz/cpa-5.9.10-fabric%2B1.21.1.jar",
           "sha512": "65c314d37258720fe5e939a241b378cf7d682cb24d233cc56c17b986d954b7a4e8eccd0991ff2c3ebe7333fef4b9d0d13916f3d8646243f34e469f12c86f24b6",
           "size": 350328
-        },
-        {
-          "kind": "mod",
-          "name": "allhallows-fabric-1.3.1_1.21.1.jar",
-          "url": "https://cdn.modrinth.com/data/CnV6ArGR/versions/BZugIYq3/allhallows-fabric-1.3.1_1.21.1.jar",
-          "sha512": "c72602046d34bc7933e9c11e09ffcafbeaff7895f8f8b6ae95cdaba40a50e7128ae65edb6102cddd3cfd5b4cb34781a3f7efe432ca386facf3d5329270ee2f95",
-          "size": 612583
         },
         {
           "kind": "mod",
