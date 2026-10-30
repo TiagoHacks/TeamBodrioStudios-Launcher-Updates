@@ -7,10 +7,10 @@
       "category": "Minijuego",
       "minecraftVersion": "1.21.1",
       "loader": "Fabric",
-      "loaderVersion": "0.17.2",
+      "loaderVersion": "0.19.5",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261030231510566",
+      "revision": "20261030232012237",
       "files": [
         {
           "kind": "mod",
