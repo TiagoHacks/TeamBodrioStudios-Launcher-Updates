@@ -10,11 +10,11 @@
       "loaderVersion": "0.17.2",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261029062452139",
+      "revision": "20261030230822475",
       "files": [
         {
           "kind": "mod",
-          "name": "fabric-carpet-1.21-1.4.147\u002Bv240613.jar",
+          "name": "fabric-carpet-1.21-1.4.147+v240613.jar",
           "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
           "sha512": "e6f33d13406796a34e7598d997113f25f7bea3e55f9d334b73842adda52b2c5d0a86b7b12ac812d7e758861e3f468bf201c6c710c40162bb79d6818938204151",
           "size": 1525027
@@ -28,7 +28,7 @@
         },
         {
           "kind": "mod",
-          "name": "InvMove-0.9.3\u002B1.21.1-Fabric.jar",
+          "name": "InvMove-0.9.3+1.21.1-Fabric.jar",
           "url": "https://cdn.modrinth.com/data/REfW2AEX/versions/nOwgsiRT/InvMove-0.9.3%2B1.21.1-Fabric.jar",
           "sha512": "18b19ff3b39c82399e4fa98a20f682191c34cfcc7774d8ba8cb7941ef6c318f48b6dfdf34a743b8580bbfff0e8073c53b3c836ea1b8bb44e379363ce805ffce9",
           "size": 84035
@@ -49,14 +49,14 @@
         },
         {
           "kind": "mod",
-          "name": "placeholder-api-2.4.2\u002B1.21.jar",
+          "name": "placeholder-api-2.4.2+1.21.jar",
           "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
           "sha512": "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
           "size": 232325
         },
         {
           "kind": "mod",
-          "name": "fabric-api-0.116.17\u002B1.21.1.jar",
+          "name": "fabric-api-0.116.17+1.21.1.jar",
           "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
           "sha512": "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8",
           "size": 2452735
@@ -91,14 +91,14 @@
         },
         {
           "kind": "mod",
-          "name": "iris-fabric-1.8.8\u002Bmc1.21.1.jar",
+          "name": "iris-fabric-1.8.8+mc1.21.1.jar",
           "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar",
           "sha512": "2e6ba2ffa1e1a6799288245a7e0ac68ee8df1d41b98362189df58f535cae34fa9277801e4136633467341b7dae5be0e5c698011b480b3d91b66d3dd4f7567aa6",
           "size": 2690177
         },
         {
           "kind": "mod",
-          "name": "sodium-fabric-0.6.9\u002Bmc1.21.1.jar",
+          "name": "sodium-fabric-0.6.9+mc1.21.1.jar",
           "url": "https://cdn.modrinth.com/data/AANobbMI/versions/26nVNc41/sodium-fabric-0.6.9%2Bmc1.21.1.jar",
           "sha512": "892728b3c26038446b9f573695db9e791fa320994ed34f89be5c766fa2e735b46adb9efa8f6688d5a5b7bb8e9793ff09e72f06fb5ff074137d5b833f1fe27227",
           "size": 1297415
@@ -124,6 +124,41 @@
           "url": "https://raw.githubusercontent.com/TiagoHacks/TeamBodrioStudios-Launcher-Updates/main/modos/murder-mystery/mods/tbs_ui_murdermys-1.0.2.jar",
           "sha512": "86d3107a550838219de45c26e56690c4208667c9f2708598b0c60580a15ed0d06bf8bd04992cbd9aa5bd9e4811ba121c8acad77c10f66ed7d80d8befa0579dfc",
           "size": 582062
+        },
+        {
+          "kind": "mod",
+          "name": "cpa-5.9.10-fabric+1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/EhthJpjM/versions/9IYnNwkz/cpa-5.9.10-fabric%2B1.21.1.jar",
+          "sha512": "65c314d37258720fe5e939a241b378cf7d682cb24d233cc56c17b986d954b7a4e8eccd0991ff2c3ebe7333fef4b9d0d13916f3d8646243f34e469f12c86f24b6",
+          "size": 350328
+        },
+        {
+          "kind": "mod",
+          "name": "allhallows-fabric-1.3.1_1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/CnV6ArGR/versions/BZugIYq3/allhallows-fabric-1.3.1_1.21.1.jar",
+          "sha512": "c72602046d34bc7933e9c11e09ffcafbeaff7895f8f8b6ae95cdaba40a50e7128ae65edb6102cddd3cfd5b4cb34781a3f7efe432ca386facf3d5329270ee2f95",
+          "size": 612583
+        },
+        {
+          "kind": "mod",
+          "name": "RainbowChristmas-1.0.2+1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/3UPp4drQ/versions/sv49zrhJ/RainbowChristmas-1.0.2%2B1.21.1.jar",
+          "sha512": "5266bea99783cd8c33cd87028324d2ab0b0f1c1322edf561874d5e79796dd1eb817391565e328fb73acb4cdde4820a1c4672369c3a6727c33da215a31385b0fe",
+          "size": 484177
+        },
+        {
+          "kind": "mod",
+          "name": "PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/tDcfU8FO/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.1.jar",
+          "sha512": "621dd4113fe1b9abdd128070c8129e50e3cd4628b293892869e6d4ff0fa50f3e1a107386970cb36dcba77007867e389111e3408a915bcb3d45a6a13b3a7af260",
+          "size": 1154772
+        },
+        {
+          "kind": "mod",
+          "name": "architectury-13.0.11-fabric.jar",
+          "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+          "sha512": "53314eb34890b11ad3c06c6f3ba2d01ae1ca756235ce4f0574e4b0544952a2ab3c628c81b521653d6487d62c5dc3055e06fed6367a3a499bafad909512f0c716",
+          "size": 600921
         }
       ],
       "videoUrl": null,
