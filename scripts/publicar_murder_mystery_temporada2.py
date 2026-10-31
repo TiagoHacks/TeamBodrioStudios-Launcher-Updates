@@ -20,6 +20,16 @@ VERSIONS = {
     "27dwvC2t": "Real Events 1.5.9",
     "y17C7oXH": "Furniture Mod Tools Refurbished 1.0.0",
 }
+EXTRA_OFFICIAL_JARS = [
+    (
+        "refurbished_furniture-fabric-1.21.1-1.0.22-signed.jar",
+        "https://github.com/MrCrayfish/MrCrayfishFurnitureMod-Refurbished/releases/download/v1.21.1-1.0.22/refurbished_furniture-fabric-1.21.1-1.0.22-signed.jar",
+    ),
+    (
+        "framework-fabric-1.21.1-0.13.20-signed.jar",
+        "https://github.com/MrCrayfish/Framework/releases/download/v1.21.1-0.13.20/framework-fabric-1.21.1-0.13.20-signed.jar",
+    ),
+]
 URL_ROOT = "https://api.modrinth.com/v2/"
 CLIENT_MOD_IDS = {
     "fabric-api", "carpet", "modmenu", "invmove", "sound_physics_remastered",
@@ -150,6 +160,32 @@ def main():
             if dep.get("project_id") in present_projects:
                 continue
             queue.append(resolve_required(dep))
+
+    # Los JAR originales del autor se alojan en GitHub Releases (no en Modrinth).
+    # Calculamos SHA-512 real y leemos fabric.mod.json antes de escribir el manifiesto.
+    for filename, url in EXTRA_OFFICIAL_JARS:
+        if filename.lower() in present_names:
+            known_mods.add("refurbished_furniture" if filename.startswith("refurbished_") else "framework")
+            continue
+        binary = readurl(url)
+        if len(binary) < 2000:
+            raise ValueError("Descarga oficial demasiado pequeña: " + filename)
+        entry = {"kind": "mod", "name": filename, "url": url,
+                 "sha512": hashlib.sha512(binary).hexdigest(), "size": len(binary)}
+        with zipfile.ZipFile(io.BytesIO(binary)) as jar:
+            metadata = json.loads(jar.read("fabric.mod.json"))
+        modid = metadata.get("id")
+        depends = metadata.get("depends", {}) or {}
+        if modid not in ("refurbished_furniture", "framework"):
+            raise ValueError("Identidad inesperada del JAR oficial: " + filename + " -> " + str(modid))
+        minimum = get_loader_min(depends.get("fabricloader", ""))
+        if minimum and minimum > loader:
+            raise ValueError(f"{filename} requiere Fabric Loader >= {'.'.join(map(str, minimum))}")
+        print(f"VALIDADO OFICIAL {filename} id={modid} ({len(binary)} bytes), dependencies={depends}", flush=True)
+        known_mods.add(modid)
+        requirements.append((filename, depends))
+        additions.append(entry)
+        present_names.add(filename.lower())
 
     if not additions:
         print("SIN CAMBIOS: las versiones ya están registradas.", flush=True)
