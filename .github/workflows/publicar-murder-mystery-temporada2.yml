@@ -1,0 +1,34 @@
+name: Publicar Mods de Temporada 2 - Murder Mystery
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/publicar_murder_mystery_temporada2.py"
+      - ".github/workflows/publicar-murder-mystery-temporada2.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publicacion-murder-mystery
+  cancel-in-progress: false
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Validar versiones, metadatos y dependencias
+        run: python3 scripts/publicar_murder_mystery_temporada2.py
+      - name: Validar JSON y publicar solo si es correcto
+        shell: bash
+        run: |
+          python3 -m json.tool modos/manifest.json >/dev/null
+          if git diff --quiet -- modos/manifest.json; then
+            echo "Ningún cambio necesario."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add modos/manifest.json
+          git commit -m "Murder Mystery: Macaw Holidays, Real Events y Furniture Tools con dependencias"
+          git push origin HEAD:main
