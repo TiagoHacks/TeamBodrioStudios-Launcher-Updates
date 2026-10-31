@@ -17,7 +17,6 @@ MC = "1.21.1"
 LOADER = "fabric"
 VERSIONS = {
     "lUJ6xjps": "Macaw's Holidays 1.1.2",
-    "27dwvC2t": "Real Events 1.5.9",
     "y17C7oXH": "Furniture Mod Tools Refurbished 1.0.0",
 }
 EXTRA_OFFICIAL_JARS = [
