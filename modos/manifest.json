@@ -10,7 +10,7 @@
       "loaderVersion": "0.19.5",
       "serverAddress": "MurderMysteryTrainSe.exaroton.me",
       "autoJoinServer": false,
-      "revision": "20261031002239555",
+      "revision": "20261031004258499",
       "files": [
         {
           "kind": "mod",
@@ -162,24 +162,10 @@
         },
         {
           "kind": "mod",
-          "name": "realevents-fabric-1.21.1-1.5.9.jar",
-          "url": "https://cdn.modrinth.com/data/mh5GBAsy/versions/27dwvC2t/realevents-fabric-1.21.1-1.5.9.jar",
-          "sha512": "8ededb5447e1886cbd81dd86383761cfb665d10671c2ce007fc688aac7450321458e11b10db1f0acf6c8ea73ff6890b974f83d889e7231747fbc175cfd8454ad",
-          "size": 228015
-        },
-        {
-          "kind": "mod",
           "name": "furniture_mod_tools_refurbished-1.0.0-fabric-1.21.1.jar",
           "url": "https://cdn.modrinth.com/data/wjNYBh7l/versions/y17C7oXH/furniture_mod_tools_refurbished-1.0.0-fabric-1.21.1.jar",
           "sha512": "2d9e3f5215130d7bfae50ecc5e8ca3173a6141372976bc4308643a931245db8ca2d6e095261232c19d2d2b11fa94d9ad99f38a66da3fc73a52ad1fb1b16f2e1a",
           "size": 230063
-        },
-        {
-          "kind": "mod",
-          "name": "xdlib-fabric-1.21.1-7.2.1.jar",
-          "url": "https://cdn.modrinth.com/data/yDe2kPBC/versions/cZ1ReBhz/xdlib-fabric-1.21.1-7.2.1.jar",
-          "sha512": "ccda421d9db309b5fc0f5ec2929894a200f3a816008777e9d125c7e8d8b25d22c8b65e669c28a4d42c149a1d02a739e2ad9a6cfebb55da0f19aec1423ff13037",
-          "size": 2931981
         },
         {
           "kind": "mod",
